@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'comments'
 ]
 
 MIDDLEWARE = [
@@ -67,18 +68,18 @@ TEMPLATES = [
     },
 ]
 
+try:
+    from youtubeclone.local_settings import *
+except ImportError:
+    pass
+
 WSGI_APPLICATION = 'youtubeclone.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+
 
 
 # Password validation

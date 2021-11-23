@@ -7,4 +7,4 @@ urlpatterns = [
 
 ]
 
-# figure out what to change in URLS
+# figure out what to change in URLS and add part = snippet to key/value
