@@ -6,7 +6,7 @@ DATABASES = {
         'ENGINE': 'mysql.connector.django',
         'NAME': 'youtube_clone',
         'USER': 'root',
-        'PASSWORD': 'pass',
+        'PASSWORD': 'MyPassword3!',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {

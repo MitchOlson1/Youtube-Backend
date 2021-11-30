@@ -2,8 +2,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('youtubeclone/', views.Comment.as_view()),
-    path('', views.something.as_view()),
+    path('youtube_clone_backend/', views.CommentsList.as_view()),
+    # path('', views.something.as_view()),
 
 ]
 
